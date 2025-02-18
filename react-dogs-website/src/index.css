@@ -1,68 +1,128 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+header{
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: blue;
+  height: 10vh;
+  gap: 20px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.voci{
+  display: flex;
+  color: white;
+  font-family: Arial;
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.margine{
+  margin-right: auto;
 }
-button:hover {
-  border-color: #646cff;
+.img{
+  width: 50px;
+  height: 50px;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.main{
+  font-family: Arial;
+  font-weight: bold;
+  height: 23vh;
+  margin-left: 30px;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+footer{
+  display: flex;
+  background-color: rgb(4, 4, 90);
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 7px;
+  height: 25vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  border-bottom: 0.5px solid grey;
+}
+.section{
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-family: Arial;
+  font-size: x-small;
+}
+.title{
+  margin-bottom: 10px;
+}
+.info{
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+.sectionlow{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: xx-small;
+  font-family: Arial;
+}
+.news{
+  width: 80%;
+  margin-bottom: 6px;
+}
+.email{
+  border-radius: 3px;
+  border: white;
+  font-size: x-small;
+  height: 20px;
+  margin-bottom: 6px;
+  width: 80%;
+}
+.button{
+  border-radius: 3px;
+  background-color: blue;
+  color: white;
+  border: blue;
+  font-size: x-small;
+  height: 25px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.recensionicontainer{
+  display: flex;
+  flex-direction: column;
+}
+.recensioni{
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+}
+.containerdiv{
+  display: flex;
+  justify-content: center;
+}
+.divrecensioni{
+  display: flex;
+  box-shadow: 0px 2px 2px 0px lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  flex-direction: column;
+  margin: 10px;
+}
+.profilo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.stelle{
+  width: 10px;
+  height: 10px;
+  margin-top: 0px;
+}
+.orizontal{
+  display: flex;
+}
+.vertical{
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
