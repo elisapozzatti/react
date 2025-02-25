@@ -7,6 +7,11 @@ header{
   padding-left: 30px;
   padding-right: 30px;
 }
+.generalcontainer{
+  max-width: 1000px;
+  padding: 0 1rem; 
+  margin: 0 auto;
+}
 .voci{
   display: flex;
   color: white;
@@ -22,8 +27,9 @@ header{
 .main{
   font-family: Arial;
   font-weight: bold;
-  height: 23vh;
-  margin-left: 30px;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
 }
 footer{
   display: flex;
@@ -125,4 +131,35 @@ footer{
 .name{
   margin-bottom: 0px;
   margin-top: 0px;
+}
+.containerbreed{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.containercard{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 0px lightgrey;
+  overflow: hidden;
+}
+.cane{
+  max-height: 200px;
+  width: 100%;
+}
+.breed{
+  margin: 10px;
+}
+.descrizione{
+  margin: 10px;
 }
